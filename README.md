@@ -1,8 +1,7 @@
-## kk-star-cache-fix
 This is a little script to fix "kk Star Ratings Plugin" functionality when using cache and "Unique voting".
 
 ## The problem:
-When using Wordpress Caching Plugins, Cloudflare, etc. the rating functionality of this plugin breaks, either not allowing new people to vote or allowing people to vote multiple times.
+When using Wordpress Caching Plugins, Cloudflare, etc. the rating functionality of this plugin breaks, either not allowing new people to vote or allowing people to vote multiple times. If you still want to offer people to vote on posts/products while using extensive page caching this can be a real problem.
 
 ## The solution:
 This script.
