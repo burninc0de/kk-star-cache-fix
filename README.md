@@ -8,7 +8,7 @@ This script.
 IMPORTANT: Disable "unique voting" in the plugin for this to work.
 
 ## Installation
-Upload kksarsfix to your template's js folder and modify your header.php to include ```<script src="<?php bloginfo('template_directory'); echo'/js/kkstarsfix.js" defer></script>```
+Upload kkstarsfix.js to your template's js folder and modify your header.php to include ```<script src="<?php bloginfo('template_directory'); echo'/js/kkstarsfix.js" defer></script>```
 
 ## Detailed explanation
 This script creates a custom event after rating and marks in local storage that the rating has been completed. Upon subsequent loads the script checks if the user has already rated and disables the rating functionality.
