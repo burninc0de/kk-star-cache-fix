@@ -14,4 +14,4 @@ Upload kkstarsfix.js to your template's js folder and modify your header.php to 
 This script creates a custom event after rating and marks in local storage that the rating has been completed. Upon subsequent loads the script checks if the user has already rated and disables the rating functionality.
 
 ## Further considerations
-This method may not be as robust as the original method of storing IPs in database and comparing incoming traffic, and overvoting can still be achieved by clearing browser cache. On the plus-side, it means less bloat (no storing of IPs) and still achieves the basic functionality of one vote per device.
+This method may not be as robust as the original method of storing IPs in database and comparing incoming traffic, and overvoting can still be achieved by clearing browser cache. It's just a quick workaround and far from perfect. On the plus-side, it means less bloat (no storing of IPs) and still achieves the basic functionality of one vote per device.
